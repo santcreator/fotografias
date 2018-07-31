@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="100"
+   height="86"
+   viewBox="0 0 26.458334 22.754167"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <linearGradient
+       osb:paint="solid"
+       id="linearGradient818">
+      <stop
+         id="stop816"
+         offset="0"
+         style="stop-color:#e7d3b1;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="285.7174"
+       x2="25.945335"
+       y1="285.7174"
+       x1="0.66415387"
+       id="linearGradient820"
+       xlink:href="#linearGradient818" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-274.24588)">
+    <path
+       style="fill:url(#linearGradient820);fill-opacity:1;stroke-width:0.22572491"
+       d="M 1.4316163,296.01045 0.66415387,295.243 v -7.94552 -7.94553 l 0.76746243,-0.76747 0.7674715,-0.76746 h 2.5768714 2.5768735 l 0.5173913,-1.24829 c 0.7536841,-1.8184 1.028325,-1.91186 5.618596,-1.91186 4.42482,0 4.620256,0.0738 5.314893,2.00548 l 0.415209,1.15467 h 2.595744 2.595745 l 0.767457,0.76746 0.767467,0.76747 v 7.94553 7.94552 l -0.767467,0.76745 -0.767457,0.76748 H 13.30474 2.1990878 Z m 22.0307467,-8.71297 v -6.99745 h -2.914698 -2.914686 l -0.603779,-1.5801 -0.603779,-1.58008 H 13.30474 10.184068 l -0.6037776,1.58008 -0.6037854,1.5801 H 6.0618192 3.147132 v 6.99745 6.99747 H 13.30474 23.462363 Z m -11.963412,5.72503 c -1.14964,-0.45897 -2.5435506,-1.60399 -3.2022458,-2.63049 -0.6974948,-1.08694 -0.7479422,-1.29568 -0.7479422,-3.09454 0,-1.79529 0.05137,-2.00902 0.7410477,-3.0838 1.2773657,-1.9906 3.1903293,-2.92082 5.6075143,-2.72683 5.578105,0.44779 7.27992,7.75265 2.518013,10.80839 -0.973178,0.62447 -1.361,0.73223 -2.852078,0.7926 -0.949157,0.0384 -1.878095,0.01 -2.064309,-0.0654 z m 2.755792,-2.34844 c 2.541974,-0.706 3.388544,-3.96926 1.515604,-5.84221 -2.498706,-2.4987 -6.7716755,-0.0488 -5.8546646,3.35667 0.2875136,1.06772 1.3418196,2.18541 2.3315946,2.47183 0.968888,0.28034 1.045515,0.28086 2.007466,0.0125 z"
+       id="path21" />
+  </g>
+</svg>

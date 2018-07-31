@@ -1,0 +1,465 @@
+/*FONTS*/
+@font-face {
+	font-family:'fonteLogo';
+	src: url("../fonts/satisfy.ttf");
+}
+@font-face {
+	font-family:'fonteTitulo';
+	src: url("../fonts/oswald.ttf");
+}
+@font-face {
+	font-family:'fonteLink';
+	src: url("../fonts/dancing.ttf");
+}
+
+/*CONFIG. PADRÃO*/
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: #000;
+}
+@media screen and (min-width:599px){
+    body{
+        background-color: #242323;
+    }
+}
+@media screen and (min-width:1921px){
+    body{
+        width: 80%;
+    }
+}
+
+/*CONFIG. CABEÇALHO TABLET DESKTOP*/
+#cabecalho .container{
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #e7d3b1;
+    box-shadow: #e7d3b1 0px 1px 10px;
+}
+#cabecalho .titulo{
+    width: 33%;
+}
+@media screen and (min-width:599px){
+    #cabecalho .container{
+        background-color: #242323;
+    }
+}
+
+/*CONFIG. MENU SMARTPHONE*/
+#cabecalho .titulo{
+    width: 100%;
+    padding: 15px 0;
+}
+#cabecalho .titulo h2 a{
+    margin-top: 10px;
+    font-size: 150%;
+    font-family: 'fonteLogo';
+    color: #e7d3b1;
+}
+span.abrir{
+    cursor: pointer;
+    font-size: 200%;
+}
+#cabecalho .container .smartMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #242323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    z-index: 4;
+}
+#cabecalho .container .smartMenu a {
+    font-size: 125%;
+    line-height: 40px;
+    color: #e7d3b1;
+    display: block;
+    transition: 0.3s;
+}
+#cabecalho .container .smartMenu a:hover{
+    color:rgba(255, 255, 255, 0.1);
+}
+#cabecalho .container .smartMenu .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 300%;
+    padding: 10px 20px 10px 0;
+    text-align: right;
+}
+@media screen and (min-width: 768px){
+#cabecalho .titulo{
+   display: none;
+}
+#cabecalho span{
+    display: none;
+}
+#cabecalho .titulo h2{
+    display: none;
+}
+}
+
+/*CONFIG. MENU DESKTOP*/
+#cabecalho .menu {
+    padding:15px;
+    text-align: right;
+}
+#cabecalho .menu li{
+    display: inline;
+    text-transform: uppercase;
+}
+#cabecalho .menu a{
+    color: #e7d3b1;
+    padding: 15px 8px;
+}
+#cabecalho .menu a:hover, a.marca{
+    color: #ffe0ac;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 767px){
+#cabecalho .menu{
+    display: none;
+}
+#cabecalho .container h1{
+    display: none;
+}
+}
+
+/*CONFIG. DA LOGO MARCA*/
+#cabecalho{
+    background:url('../images/capa.jpg') no-repeat top center;
+    background-size: cover;
+    min-height: 450px;
+    height: 100vh;
+}
+#cabecalho .logo{
+    color: #e7d3b1;
+    text-align: center;
+    margin-top: 3vh;
+}
+#cabecalho .logo img{
+    width: 12vw;
+}
+#cabecalho .logo h1{
+    font-family: 'fonteTitulo';
+    font-size: 10vw;
+}
+@media screen and (min-width:599px){
+    #cabecalho .logo{
+        margin-top: 25vh;
+    }
+}
+@media screen and (min-width:1080px){
+    #cabecalho .logo{
+        margin-top: 15vh;
+    }
+    #cabecalho .logo img{
+        width: 10vw;
+    }
+    #cabecalho .logo h1{
+        font-size: 8vw;
+    }
+    #cabecalho .logo p{
+        font-size: 6vw;
+    }
+}
+
+/*CONFIG. DOS BTNS*/
+#btns {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+}
+#btns .borda-dir{
+    border-right: #e7d3b1 solid 1px;
+}
+#btns .borda-top{
+    border-top: #e7d3b1 solid 1px;
+}
+#btns .ctn img{
+    padding: 15px;
+}
+#btns .ctn img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width:599px){
+    #btns{
+        display: none;
+    }
+}
+
+/*CONFIG. DO ASIDE BLOCO DATA*/
+#bloco-data{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242323;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: #000 0px 1px 10px;
+    z-index: 3;
+}
+#bloco-data .data-txt p{
+    font-size: 225%;
+    text-align: center;
+    color: #e7d3b1;
+}
+@media screen and (max-width:599px){
+    #bloco-data{
+        display: none;
+    }
+}
+
+/*CONFIG. DO ASIDE BLOCOS TELEFONE E REDE SOCIA*/
+#blocos-tel-social{
+    width: 100px;
+    min-height: 452px;
+    height: 100vh;
+    background-color: #242323;
+    box-shadow: #000 0px 1px 10px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+#blocos-tel-social .telefone{
+    height: 88vh;
+    border: #242323 solid 1px;
+}
+#blocos-tel-social .telefone p{
+    width: 250px;
+    margin-top: 60vh;
+    margin-left: -80px;
+    color: #e7d3b1;
+    text-align: center;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+}
+@media only screen and (orientation: landscape) {
+    #blocos-tel-social .telefone{
+        height: 75vh;
+    }
+    #blocos-tel-social .telefone p{
+        display: none;
+    }
+}
+@media screen and (min-width:800px){
+    #blocos-tel-social .telefone p{
+        display: block;
+    }
+    #blocos-tel-social .telefone{
+        height: 88vh;
+    }
+}
+#blocos-tel-social .social{
+    text-align: center;
+    color: #e7d3b1;
+    font-size: 115%;
+}
+#blocos-tel-social .social img{
+    width: 30px;
+}
+@media screen and (max-width:599px){
+    #blocos-tel-social{
+        display: none;
+    }
+}
+
+/*CONFIG. DE NOSSA HISTÓRIA*/
+#sobre {
+    color: #fff;
+}
+#sobre .txt-span{
+    color: #e7d3b1;
+}
+#sobre h2{
+    font-family: 'fonteTitulo';
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+}
+#sobre .container{
+    flex-direction: row;
+}
+#sobre .txt-sobre p{
+    padding: 0 20px;
+}
+@media screen and (max-width:599px){
+    #sobre{
+        display: none;
+    }
+}
+
+/*CONFIG. DE SERVICES*/
+#servicos{
+    color: #fff;
+}
+#servicos .txt-span{
+    color: #e7d3b1;
+}
+#servicos h2{
+    font-family: 'fonteTitulo';
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+}
+#servicos .container{
+    flex-direction: row;
+}
+#servicos .jobs{
+    height: 400px;
+    background-size: cover;
+    text-transform: uppercase;
+    font-family: 'fonteTitulo';
+}
+#servicos .jobs h1{
+    font-size: 3vw;
+    margin-top: 300px;
+    color: #e7d3b1;
+}
+#servicos .jobs a{
+    font-size: 1.5vw;
+    color: #e7d3b1;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    padding: 4px 8px;
+    background-color: #242323;
+}
+#servicos .jobs a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #242323;
+}
+#servicos .formaturas{
+    background:url('../images/formaturas.jpg') no-repeat top center;
+}
+#servicos .casamentos{
+    background:url('../images/casamentos.jpg') no-repeat top center;
+}
+#servicos .anos{
+    background:url('../images/anos.jpg') no-repeat top center;
+}
+#servicos .outros{
+    background:url('../images/outros.jpg') no-repeat center center;
+}
+@media screen and (max-width:599px){
+    #servicos{
+        display: none;
+    }
+}
+
+/*CONFIG. DE PARCEIROS DO SITE*/
+#parceiros{
+    color: #fff;
+}
+#parceiros .txt-span{
+    color: #e7d3b1;
+}
+#parceiros h2{
+    font-family: 'fonteTitulo';
+    font-size: 300%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+#parceiros .logo-parceiros li{
+    display: inline;
+    font-size: 3.5vw;
+    margin: 30px;
+    line-height: 6vw;
+    font-family: "fonteLink";
+}
+#parceiros .logo-parceiros a{
+    color: #606060;
+}
+#parceiros .logo-parceiros a:hover{
+    color: #e7d3b1;
+    transition: 800ms;
+}
+
+/*CONFIG. DO RODAPÉ DO SITE*/
+#rodape{
+    font-family: 'arial';
+}
+#rodape .formulario{
+    width: 60%;
+    margin: 0 auto;
+}
+#rodape input{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: #e7d3b1 solid 1px;
+    color: #e7d3b1;
+    padding: 5px;
+    width: 99%;
+    margin-bottom: 5px;
+}
+#rodape .meio{
+    width: 49%;
+}
+#rodape textarea{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: #e7d3b1 solid 1px;
+    color: #e7d3b1;
+    padding: 5px;
+    width: 99%;
+}
+#rodape .enviar{
+    margin: 5px 0 100px 0;
+}
+#rodape .ctn-rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-top: #e7d3b1 solid 1px;
+    padding-top: 30px;
+    border-radius: 25px;
+}
+#rodape .ctn-rodape h4{
+    text-transform: uppercase;
+    font-size: 115%;
+}
+#rodape .ctn-rodape a{
+    color: #e7d3b1;
+}
+#rodape .ctn-rodape .borda-esq{
+    border-left: #e7d3b1 solid 1px;
+}
+#rodape .ctn-rodape .marg-esq{
+    padding-left: 20px;
+}
+#rodape .marca-registrada{
+    padding: 15px;
+    border-top: #e7d3b1 solid 1px;
+    border-bottom: #e7d3b1 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'fonteLink';
+    font-size: 110%;
+}

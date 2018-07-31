@@ -1,0 +1,148 @@
+/*FONTS*/
+@font-face {
+	font-family:'fonteLogo';
+	src: url("../fonts/satisfy.ttf");
+}
+@font-face {
+	font-family:'fonteTitulo';
+	src: url("../fonts/oswald.ttf");
+}
+@font-face {
+	font-family:'fonteLink';
+	src: url("../fonts/dancing.ttf");
+}
+
+/*CONFIG. PADRÃO*/
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: #000;
+}
+@media screen and (min-width:599px){
+    body{
+        background-color: #242323;
+    }
+}
+@media screen and (min-width:1921px){
+    body{
+        width: 80%;
+    }
+}
+
+/*CONFIG. CABEÇALHO TABLET DESKTOP*/
+#cabecalho .container{
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #e7d3b1;
+    box-shadow: #e7d3b1 0px 1px 10px;
+}
+#cabecalho .titulo{
+    width: 33%;
+}
+@media screen and (min-width:599px){
+    #cabecalho .container{
+        background-color: #242323;
+    }
+}
+
+/*CONFIG. MENU SMARTPHONE*/
+#cabecalho .titulo{
+    width: 100%;
+    padding: 15px 0;
+}
+#cabecalho .titulo h1 a{
+    font-family: 'fonteTitulo';
+    text-transform: uppercase;
+    color: #e7d3b1;
+}
+#cabecalho .titulo h2 a{
+    margin-top: 10px;
+    font-size: 150%;
+    font-family: 'fonteLogo';
+    color: #e7d3b1;
+}
+span.abrir{
+    cursor: pointer;
+    font-size: 200%;
+}
+#cabecalho .container .smartMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #242323;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    z-index: 4;
+}
+#cabecalho .container .smartMenu a {
+    font-size: 125%;
+    line-height: 40px;
+    color: #e7d3b1;
+    display: block;
+    transition: 0.3s;
+}
+#cabecalho .container .smartMenu a:hover{
+    color:rgba(255, 255, 255, 0.1);
+}
+#cabecalho .container .smartMenu .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 300%;
+    padding: 10px 20px 10px 0;
+    text-align: right;
+}
+@media screen and (min-width: 768px){
+#cabecalho .titulo{
+   width: 25%;
+}
+#cabecalho span{
+    display: none;
+}
+#cabecalho .titulo h2{
+    display: none;
+}
+}
+
+/*CONFIG. MENU DESKTOP*/
+#cabecalho .menu {
+    padding:15px;
+    text-align: right;
+}
+#cabecalho .menu li{
+    display: inline;
+    text-transform: uppercase;
+}
+#cabecalho .menu a{
+    color: #e7d3b1;
+    padding: 15px 8px;
+}
+#cabecalho .menu a:hover, a.marca{
+    color: #ffe0ac;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 767px){
+#cabecalho .menu{
+    display: none;
+}
+#cabecalho .container h1{
+    display: none;
+}
+}

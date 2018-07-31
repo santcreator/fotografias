@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="273"
+   width="273"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 273 273"
+   sodipodi:docname="portfolio.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.86446886"
+     inkscape:cx="-42.222458"
+     inkscape:cy="136.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient817"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#e7d3b1;stop-opacity:1;"
+         offset="0"
+         id="stop815" />
+    </linearGradient>
+  </defs>
+  <path
+     style="stroke-width:0.14285713;fill:#e7d3b1;fill-opacity:1"
+     id="path2"
+     d="m 162.42856,120.85715 v 2.2857 c 0,3.78715 -3.06998,6.85715 -6.85712,6.85715 h -54.85715 c -3.787148,0 -6.857146,-3.07 -6.857146,-6.85715 V 86.57143 c 0,-3.78714 3.069998,-6.857146 6.857146,-6.857146 H 103 v 29.714286 c 0,6.30171 5.12685,11.42858 11.42856,11.42858 z m 13.71429,-11.42858 V 72.857144 C 176.14285,69.07 173.07285,66 169.28572,66 h -54.85716 c -3.78714,0 -6.85713,3.07 -6.85713,6.857144 v 36.571426 c 0,3.78715 3.06999,6.85715 6.85713,6.85715 h 54.85716 c 3.78713,0 6.85713,-3.07 6.85713,-6.85715 z M 130.42856,79.714284 c 0,3.787146 -3.06998,6.857146 -6.85712,6.857146 -3.78716,0 -6.85716,-3.07 -6.85716,-6.857146 0,-3.78714 3.07,-6.85714 6.85716,-6.85714 3.78714,0 6.85712,3.07 6.85712,6.85714 z M 116.71428,100.28572 124.645,92.355 c 0.66943,-0.66943 1.75486,-0.66943 2.42442,0 L 132.71428,98 152.07357,78.640714 c 0.66943,-0.669428 1.75486,-0.669428 2.42443,0 L 167,91.14285 v 16 h -50.28572 z" />
+  <text
+     id="text819"
+     y="210.23846"
+     x="54.023071"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.15384674px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#e7d3b1;fill-opacity:0.98994978;stroke:none;stroke-width:0.75384617"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#e7d3b1;fill-opacity:0.98994978;stroke-width:0.75384617"
+       y="210.23846"
+       x="54.023071"
+       id="tspan817">MURAL</tspan></text>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="273"
+   width="273"
+   id="svg4"
+   version="1.1"
+   viewBox="0 0 273 273"
+   sodipodi:docname="duvidas.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.86446886"
+     inkscape:cx="136.5"
+     inkscape:cy="136.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <text
+     id="text819"
+     y="204.23846"
+     x="30.023071"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.15384674px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#e7d3b1;fill-opacity:1;stroke:none;stroke-width:0.75384617;"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.75384617;fill:#e7d3b1;fill-opacity:1;"
+       y="204.23846"
+       x="30.023071"
+       id="tspan817">DÚVIDAS</tspan></text>
+  <path
+     style="stroke-width:0.12890625;fill:#e7d3b1;fill-opacity:1"
+     id="path2-4"
+     d="m 141.06069,62 c -10.28916,0 -16.95348,4.215622 -22.18566,11.733822 -0.94914,1.363829 -0.65652,3.233737 0.66748,4.237665 l 5.56075,4.216391 c 1.33715,1.013846 3.23967,0.77679 4.28653,-0.534704 3.22897,-4.045207 5.62417,-6.374286 10.66789,-6.374286 3.96567,0 8.87081,2.55222 8.87081,6.397747 0,2.907098 -2.39985,4.400086 -6.31551,6.595362 -4.56624,2.560079 -10.60885,5.746125 -10.60885,13.716263 V 103.25 c 0,1.70865 1.3851,3.09375 3.09375,3.09375 h 9.34197 c 1.70865,0 3.09375,-1.3851 3.09375,-3.09375 v -0.74417 c 0,-5.524926 16.14782,-5.755027 16.14782,-20.70583 C 163.68155,70.540809 152.00239,62 141.06069,62 Z m -1.29176,48.1412 c -4.92371,0 -8.92947,4.00576 -8.92947,8.92946 0,4.92358 4.00576,8.92934 8.92947,8.92934 4.9237,0 8.92946,-4.00576 8.92946,-8.92946 0,-4.92371 -4.00576,-8.92934 -8.92946,-8.92934 z" />
+</svg>
